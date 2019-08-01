@@ -6,13 +6,13 @@ const Journey = function(startLocation, endLocation, transport, distance) {
 };
 
 Journey.prototype.startLocation = function () {
-  return this.startLocation.map((location) => {
+  return this.journey.map((location) => {
     return start.location;
   });
 };
 
 Journey.prototype.endLocation = function () {
-  return this.endLocation.map((location) => {
+  return this.journey.map((location) => {
     return end.location;
   });
 };
